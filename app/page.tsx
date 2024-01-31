@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
+import FeedbackOD from "@/components/ui/Dialog/Dialog"
 
 export default function IndexPage() {
   return (
@@ -16,6 +17,7 @@ export default function IndexPage() {
           into your apps. Free. Open Source. And Next.js 13 Ready.
         </p>
       </div>
+      <FeedbackOD />
       <div className="flex gap-4">
         <Link
           href={siteConfig.links.docs}
