@@ -160,11 +160,11 @@ const FeedbackOD = () => {
           onOpenAutoFocus={(event) => {
             event.preventDefault();
           }}
-          className="fixed left-1/2 top-1/2 z-10 h-[97vh] w-full min-w-min -translate-x-1/2 -translate-y-1/2 overflow-auto rounded-sm bg-white p-4 shadow sm:h-fit sm:w-[40rem] sm:p-8"
+          className="fixed left-1/2 top-1/2 z-10 h-[100vh] w-full min-w-min -translate-x-1/2 -translate-y-1/2 overflow-auto rounded-sm bg-white p-4 shadow sm:h-fit sm:w-[40rem] sm:p-8"
           >
           <div className="flex items-center justify-end">
             <Dialog.Close
-              className="text-black opacity-50"
+              className="pt-8 text-black opacity-50"
               aria-label="Close">
               x
             </Dialog.Close>
