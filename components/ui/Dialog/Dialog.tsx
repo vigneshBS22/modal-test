@@ -8,7 +8,6 @@ import React, { useState } from "react";
 // import { FiX } from "react-icons/fi";
 import * as Dialog from "@radix-ui/react-dialog";
 import EmojiSelection from "./EmojiSelection";
-import { FiX } from "react-icons/fi";
 
 const recommendJourneyArray = [
     { id: 1, color: "bg-[#FF0000]" },
